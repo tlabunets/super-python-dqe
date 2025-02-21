@@ -28,11 +28,11 @@ print(numbers)
 
 
 # 3. calculate average for even and odd numbers
-numbers = [1, 7, 4, 2, 5, 0]
+#numbers = [1, 7, 4, 2, 5, 0]
 
 # divide the numbers into even and odd
-even_numbers = [num for num in numbers if num % 2 == 0]  # even
-odd_numbers = [num for num in numbers if num % 2 != 0]   # odd
+even_numbers = [num for num in random_numbers if num % 2 == 0]  # even
+odd_numbers = [num for num in random_numbers if num % 2 != 0]   # odd
 
 # calculate average for even and odd numbers
 average_even = sum(even_numbers) / len(even_numbers) if even_numbers else 0
