@@ -21,12 +21,6 @@ def selection_sort(lst):
 sorted_numbers = selection_sort(random_numbers) #call function described abow
 print(f"Sorted list from min to max: {sorted_numbers}") #print result
 
-#simple way to sort
-numbers = [34, 7, 23, 32, 5, 62]
-numbers.sort()
-print(numbers)
-
-
 # 3. calculate average for even and odd numbers
 #numbers = [1, 7, 4, 2, 5, 0]
 
