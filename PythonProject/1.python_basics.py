@@ -22,7 +22,6 @@ sorted_numbers = selection_sort(random_numbers) #call function described abow
 print(f"Sorted list from min to max: {sorted_numbers}") #print result
 
 # 3. calculate average for even and odd numbers
-#numbers = [1, 7, 4, 2, 5, 0]
 
 # divide the numbers into even and odd
 even_numbers = [num for num in random_numbers if num % 2 == 0]  # even
