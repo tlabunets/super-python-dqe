@@ -27,15 +27,14 @@ def merge_dicts(dicts_list):
                 key_info[key] = i + 1  # Store dict index (1-based)
 
     # Rename keys if they exist in multiple dictionaries
-    final_dict = {f"{key}_{key_info[key]}" if sum(k == key for d in dicts_list for k in d) > 1 else key: value
-                  for key, value in merged_dict.items()}
+    final_dict = {f"{key}_{key_info[key]}" if sum(1 for d in dicts_list if key in d) > 1 else key: merged_dict[key]
+                  for key in sorted(merged_dict.keys())}
 
     return final_dict
-
 
 # Example usage
 random_dicts = generate_random_dicts()
 print("Generated list of dictionaries:", random_dicts)
-#random_dicts = [{'a': 5}, {'a': 8}, {'g': 7}] # example of repeatable key
+#random_dicts = [{'k': 1}, {'a': 5}, {'a': 8}, {'g': 7}] # example of repeatable key
 merged_result = merge_dicts(random_dicts)
 print("Merged dictionary:", merged_result)
