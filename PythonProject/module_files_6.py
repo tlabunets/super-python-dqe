@@ -128,7 +128,7 @@ def main():
             print("Exiting...")
             break
         else:
-            print("Invalid choice. Please enter 1, 2, 3, or 4.")
+            print("Invalid choice. Please enter 1, 2, 3, 4 or 5.")
 main()
 
 
