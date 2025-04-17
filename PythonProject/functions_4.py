@@ -13,6 +13,15 @@ def normalize_text(text):
     sentences = re.split(r'([.!?])', text)
     return sentences
 
+def normalize_text2(text):
+# Text into variable
+    text = text.lower()
+# Replace "iz" to "is", if "iz" is not in quotes
+    text = re.sub(r'(?<![“"])iz(?![”"])', 'is', text)
+# Split text to sentences
+    sentences = re.split(r'([.!?])', text)
+    return ' '.join(sentences)
+
 def create_last_sentence(sentences):
     words = []
     for i in range(len(sentences)):

@@ -1,0 +1,13 @@
+Type: News
+Text: russia launched a missile strike on the city center
+City: Sumy
+
+===
+Type: PrivateAd
+Text: I am going to buy a dog
+Expiration: 2025-04-17
+
+===
+Type: PerfectQuote
+Text: if the world were perfect, it wouldn't be.
+Author: Yogi Berra
