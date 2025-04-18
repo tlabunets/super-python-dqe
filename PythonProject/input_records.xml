@@ -1,0 +1,17 @@
+<records>
+    <record>
+        <type>news</type>
+        <text>Sunshine all week in Madrid!</text>
+        <city>Madrid</city>
+    </record>
+    <record>
+        <type>privatead</type>
+        <text>Renting my summer house.</text>
+        <expiration>2025-05-01</expiration>
+    </record>
+    <record>
+        <type>perfectquote</type>
+        <text>God is the perfect poet.</text>
+        <author>Robert Browning</author>
+    </record>
+</records>
