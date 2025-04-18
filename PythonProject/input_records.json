@@ -1,0 +1,17 @@
+[
+  {
+    "type": "news",
+    "text": "Concert in Central Park this weekend.",
+    "city": "New York"
+  },
+  {
+    "type": "privatead",
+    "text": "Need a pet sitter.",
+    "expiration": "2025-04-11"
+  },
+  {
+    "type": "perfectquote",
+    "text": "Complete abstinence is easier than perfect moderation.",
+    "author": "Saint Augustine"
+  }
+]
